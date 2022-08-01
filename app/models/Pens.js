@@ -11,6 +11,8 @@ const Pens = new mongoose.Schema(
 			
 		},
 
+		brand: String,
+
 		refillable: {
 			type: Boolean
 		},
