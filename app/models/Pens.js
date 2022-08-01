@@ -10,6 +10,10 @@ const Pens = new mongoose.Schema(
 			type: String,
 			
 		},
+
+		refillable: {
+			type: Boolean
+		},
 		owner: {
 			type: mongoose.Schema.Types.ObjectId,
 			ref: 'User',

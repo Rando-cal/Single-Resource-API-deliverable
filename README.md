@@ -1,4 +1,4 @@
-# express-auth-template
+# single-resource-API-Pens
 
 A template for starting projects with `express` as an API. Includes
 authentication and common middlewares.
@@ -24,12 +24,12 @@ Dependencies are stored in [`package.json`](package.json).
 The most important file for understanding the structure of the template is
 `server.js`. This is where the actual Express `app` object is created, where
 the middlewares and routes are registered, and more. To register a routefile,
-follow the pattern established here with `exampleRoutes` and `userRoutes`. If
+follow the pattern established here with `pen_routes` and `userRoutes`. If
 you want to add any middlewares to your app, do that here.
 
 The `app` directory contains models and route files. Models are simply Mongoose
 models. To create your own, follow the patterns established in
-`app/models/example.js`. Route files are somewhat similar to controllers in
+`app/models/Pens.js`. Route files are somewhat similar to controllers in
 Rails, but they cover more functionality, including serialization and deciding
 which HTTP verbs to accept and what to do with them.
 
